@@ -6,7 +6,7 @@ class state(Enum):
     """
     EUtils Pipeline statuses
 
-    XXX Not every ERequests follows the same order.
+    XXX Not every ERequests follow the same order.
     So State orders should not always be sequential.
 
     """
