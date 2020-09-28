@@ -1,4 +1,5 @@
 Python EUtils
+=============
 
 python-eutils is a Client-side Python implementation for the public API of the NCBI Entrez System, 
 which allows access to several genomics databases.
@@ -23,9 +24,7 @@ For a proper documentation, follow the python inline help command:
         >> import python_eutils as pyeu
         >> help(pyeu)
 
-Or refer to ``The E-Utilities in-Depth'' on:
-
-         https://www.ncbi.nlm.nih.gov/books/NBK25499/
+Or refer to ``The E-Utilities in-Depth'' on https://www.ncbi.nlm.nih.gov/books/NBK25499/ .
 
 Python EUtils comes with some extra features like Operations Pipelining which allows to easily perform complex
 operations in a small amount of code.
@@ -33,15 +32,16 @@ operations in a small amount of code.
 For a deeper look into how code has been simplified, have a look to the original Perl scripts
 under ``Advanced Pipelining'' section at:
 
-        https://www.ncbi.nlm.nih.gov/books/NBK25497/?report=classic#_chapter2_Combining_Eutility_Calls_to_Cre_
+https://www.ncbi.nlm.nih.gov/books/NBK25497/?report=classic#_chapter2_Combining_Eutility_Calls_to_Cre_
 
-[...]
+
+        [...]
         Retrieving data records in database B linked to records in database A matching an Entrez query
 
         ESearch → ELink → ESummary
 
         ESearch → ELink → EFetch
-[...]
+        [...]
 
 and to the corresponding test cases in this tree under test/
         
