@@ -98,7 +98,8 @@ The following image shows how to programmatically implement a ESearch-ELink-EFet
 Further testcases and bugfixes may come in the future (as well as new features and a proper documentation).
 Of course, feedbacks and suggestions are always appreciated :)
 
-N.B. 
+Nota Bene:
+==========
 
 Since NCBI API Keys are not yet supported in this implementation (only HTTPS GET or POST),
 a rate-limiter of 1-second between requests has been introduced. 
