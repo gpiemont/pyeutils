@@ -10,13 +10,11 @@ from . egquery import *
 from . einfo import *
 from . elink import *
 from . epost import *
-
 from . esearch import *
 from . espell import *
 from . esummary import *
 
 from . eresults import *
-
 
 def log_setup(linefmt='%(levelname)s: %(asctime)s : %(message)s', datefmt='%H:%M:%S',
         loglevel=logging.DEBUG):
