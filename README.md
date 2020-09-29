@@ -93,7 +93,7 @@ and to the corresponding test cases in this tree under test/
 
 The following image shows how to programmatically implement a ESearch-ELink-EFetch pipeline:
 
-![ESearch-Elink-EFetch pipeline] (https://gitlab.com/bio.info/NCBI/python-eutils/-/blob/master/docs/Pipelines.png)
+![alt text] (https://gitlab.com/bio.info/NCBI/python-eutils/-/blob/master/docs/Pipelines.png "ESearch-Elink-EFetch Pipeline")
 
 Further testcases and bugfixes may come in the future (as well as new features and a proper documentation).
 Of course, feedbacks and suggestions are always appreciated :)
