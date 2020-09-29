@@ -314,6 +314,5 @@ def esearch_elink_efetch_asn1(query, dbfrom="pubmed", dbto="protein", cmd="neigh
 
     return esearch_elink_efetch(query, dbfrom=dbfrom, dbto=dbto, cmd=cmd, rettype=rettype, retmode='asn.1')
 
-
-all = [ EFetch ] # efetch_link, efetch_link_xml, efetch_link_asn1 ]
+all = [ EFetch, esearch_elink_efetch, esearch_elink_efetch_xml, esearch_elink_efetch_asn1 ]
 
