@@ -19,12 +19,52 @@ on NCBI website where necessary.
 Official Documentation and Sample Applicatons have of course been followed to make this implementation possible,
 as well as the original Perl scripts, available on https://www.ncbi.nlm.nih.gov/books/NBK25498/ .
 
+Getting Started:
+================
+
+Simply clone this repository:
+
+        git clone https://gitlab.com/bio.info/NCBI/python-eutils.git
+
+
+Setup developement environment:
+===============================
+
+Install package requirements as a superuser by issuing:
+
+        # pip3 install -r requirements.txt
+
+or as a regular user:
+
+        $ pip3 install --user -r requirements.txt
+
+And make your changes to the source code.
+
+Install as a Python package:
+===========================
+
+Package setup is offered via setup.py and is not available on PyPi at the time of writing.
+Simply install it as superuser by issuing:
+
+        # python3.8 setup.py install
+
+Or as a user package:
+
+        $ pip3 install --user .
+
+
+Documentation:
+==============
+
 For a proper documentation, follow the python inline help command:
 
         >> import python_eutils as pyeu
         >> help(pyeu)
 
 Or refer to ``The E-Utilities in-Depth'' on https://www.ncbi.nlm.nih.gov/books/NBK25499/ .
+
+Features:
+=========
 
 Python EUtils comes with some extra features like Operations Pipelining which allows to easily perform complex
 operations in a small amount of code.
