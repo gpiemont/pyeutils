@@ -4,11 +4,7 @@ from enum import Enum
 
 class state(Enum):
     """
-    EUtils Pipeline statuses
-
-    XXX Not every ERequests follow the same order.
-    So State orders should not always be sequential.
-
+    EUtils Pipeline status codes
     """
 
     NONE        = 0
