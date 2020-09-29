@@ -90,6 +90,11 @@ and to the corresponding test cases in this tree under test/
         ├── pubmed_protein_esummary.py
         └── pubmed_protein_fetch.py
 
+
+The following image shows how to programmatically implement a ESearch-ELink-EFetch pipeline:
+
+![ESearch-Elink-EFetch pipeline] (https://gitlab.com/bio.info/NCBI/python-eutils/-/blob/master/docs/Pipelines.png)
+
 Further testcases and bugfixes may come in the future (as well as new features and a proper documentation).
 Of course, feedbacks and suggestions are always appreciated :)
 
