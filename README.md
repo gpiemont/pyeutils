@@ -93,7 +93,7 @@ and to the corresponding test cases in this tree under test/
 
 The following image shows how to programmatically implement a ESearch-ELink-EFetch pipeline:
 
-![alt text] (docs/Pipelines.png "ESearch-Elink-EFetch Pipeline")
+![alt text](docs/Pipelines.png "ESearch-Elink-EFetch Pipeline")
 
 Further testcases and bugfixes may come in the future (as well as new features and a proper documentation).
 Of course, feedbacks and suggestions are always appreciated :)
