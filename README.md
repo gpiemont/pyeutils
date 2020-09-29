@@ -50,8 +50,8 @@ and to the corresponding test cases in this tree under test/
         ├── pubmed_protein_esummary.py
         └── pubmed_protein_fetch.py
 
-Further testcases and bugfixes may come in the future (as well as new features and a proper documentation),
-as feedbacks and suggestions are always appreciated :)
+Further testcases and bugfixes may come in the future (as well as new features and a proper documentation).
+Of course, feedbacks and suggestions are always appreciated :)
 
 N.B. 
 
@@ -63,7 +63,7 @@ The creator does not hold any responsibility in the misuse of this software.
 Also carefully read COPYRIGHT.NLM, for any use of downloaded data from NCBI System, 
 publication and redistribution included.
 
-For a complete copyright policy have a look at https://www.nlm.nih.gov/copyright.html
+For a complete NLM copyright policy have a look at https://www.nlm.nih.gov/copyright.html
 
 
 
