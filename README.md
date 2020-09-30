@@ -72,7 +72,7 @@ operations in a small amount of code.
 For a deeper look into how code has been simplified, have a look to the original Perl scripts
 under ``Advanced Pipelining'' section at:
 
-https://www.ncbi.nlm.nih.gov/books/NBK25497/?report=classic#_chapter2_Combining_Eutility_Calls_to_Cre_
+https://www.ncbi.nlm.nih.gov/books/NBK25497/?report=classic#_chapter2_Combining_Eutility_Calls_to_Cre_ 
 
 
         [...]
