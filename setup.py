@@ -7,7 +7,6 @@ setuptools.setup(
     name="python_eutils",
     version="0.0.1",
     author="Giulio Piemontese",
-    author_email="gpiemon [at] protonmail.com",
     description="Client-side, Python NCBI EUtils",
     long_description=long_description,
     long_description_content_type="text/markdown",
