@@ -41,7 +41,7 @@ or as a regular user:
 And make your changes to the source code.
 
 Install as a Python package:
-===========================
+============================
 
 Package setup is offered via setup.py and is not available on PyPi at the time of writing.
 Simply install it as superuser by issuing:
@@ -58,7 +58,7 @@ Documentation:
 
 For a proper documentation, follow the python inline help command:
 
-        >> import python_eutils as pyeu
+        >> import pyeutils as pyeu
         >> help(pyeu)
 
 Or refer to ``The E-Utilities in-Depth'' on https://www.ncbi.nlm.nih.gov/books/NBK25499/ .
@@ -85,7 +85,7 @@ under ``Advanced Pipelining'' section at:
 
 and to the corresponding test cases in this tree under test/
         
-        tests/
+        pyeutils_tests/
         ├── __init__.py
         ├── pubmed_protein_esummary.py
         └── pubmed_protein_fetch.py
