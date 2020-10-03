@@ -25,7 +25,7 @@ query = 'asthma[mesh]+AND+leukotrienes[mesh]+AND+2009[pdat]'
 
 if __name__ == "__main__":
     
-    es = ESearch(query, db='pubmed')
+    es = ESearch(query, db='pubmed', retmode="xml")
 
     if not es:
         logging.error("ESEARCH")
@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
     logging.info(es)
 
-    el = ELink("protein", dbfrom="pubmed", source=es)
+    el = ELink("protein", dbfrom="pubmed", retmode="xml", cmd="neighbor_history", source=es)
         
     if not el:
         logging.error("ELINK")
