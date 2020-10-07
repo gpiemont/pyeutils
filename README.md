@@ -25,6 +25,10 @@ Getting Started:
 Simply clone this repository:
 
         git clone https://gitlab.com/bio.info/NCBI/python-eutils.git
+        
+Or the one mirrored on github:
+
+        git clone https://gitlab.com/gpiemont/pyeutils.git
 
 
 Setup developement environment:
