@@ -87,7 +87,7 @@ under ``Advanced Pipelining'' section at:
         ESearch → ELink → EFetch
         [...]
 
-and to the corresponding test cases in this tree under test/
+and to the corresponding test cases in this tree under pyeutils_test/
         
         pyeutils_tests/
         ├── __init__.py
