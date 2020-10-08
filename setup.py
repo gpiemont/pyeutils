@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyeutils",
-    version="0.0.1",
+    version="0.9",
     author="Giulio Piemontese",
     description="Client-side, Python NCBI EUtils",
     long_description=long_description,
