@@ -108,7 +108,7 @@ Nota Bene:
 Since NCBI API Keys are not yet supported in this implementation (only HTTPS GET or POST),
 a rate-limiter of 1-second between requests has been introduced. 
 Use with care and do not overburden the NCBI servers with too much requests. 
-The creator does not hold any responsibility in the misuse of this software.
+The creator does not hold responsibility in the misuse of this software.
 
 Also carefully read COPYRIGHT.NLM, for any use of downloaded data from NCBI System, 
 publication and redistribution included.
