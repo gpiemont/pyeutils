@@ -150,8 +150,8 @@ class EFetch(ELink, EPost, ESearch):
 
         else:
                 if querykey or webenv:
-                        # Already have a History Server environment, use `dbfrom` as target db
-                        self._db = dbfrom
+                        # Already have a History Server environment, use `db` param as target db
+                        self._db = db
 
         self._efetch_payload = {
                 "tool"      : EUTILS_APPNAME,
