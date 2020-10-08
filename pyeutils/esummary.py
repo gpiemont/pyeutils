@@ -90,7 +90,7 @@ class ESummary(ELink, ESearch):
                         self._esummary_payload["webenv"] = webenv
                 
                 if querykey:
-                        self._esummary_payload["query_key"] = query_key
+                        self._esummary_payload["query_key"] = querykey
 
         
         self._retstart  = self._esummary_payload["retstart"] = retstart
