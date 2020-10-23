@@ -12,7 +12,6 @@ class EResults(object):
     def __init__(self, results, format='native'):
 
         self._format  = format
-        self._results = results
 
         from bs4 import BeautifulSoup as BS4
         soup = None

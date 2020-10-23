@@ -45,6 +45,13 @@ class ESummary(ELink, ESearch):
                     source._retmode, source._webenv, source._querykey,
                     source._datetype, source._reldate, source._minmaxdate)
                 
+                ##
+                ## Initialize ESearch part of <self>, from source type (ESearch)
+                ##
+
+                self._term = source._term
+                self._usehistory = source._usehistory
+
                 self._results = super(self.__class__, self)._get_elinks()
 
                 self._esummary_payload = {
@@ -83,7 +90,7 @@ class ESummary(ELink, ESearch):
                         self._esummary_payload["webenv"] = webenv
                 
                 if querykey:
-                        self._esummary_payload["query_key"] = query_key
+                        self._esummary_payload["query_key"] = querykey
 
         
         self._retstart  = self._esummary_payload["retstart"] = retstart

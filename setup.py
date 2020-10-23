@@ -4,13 +4,13 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="python_eutils",
-    version="0.0.1",
+    name="pyeutils",
+    version="0.9",
     author="Giulio Piemontese",
     description="Client-side, Python NCBI EUtils",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://gitlab.com/bio.info/NCBI/python_eutils",
+    url="https://gitlab.com/bio.info/NCBI/python-eutils",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -19,7 +19,7 @@ setuptools.setup(
     ],
     entry_points={
         'main': [
-            'python_eutils=python_eutils.__main__:main',
+            'pyeutils=pyeutils.__main__:main',
         ],
     },
     python_requires='>=3.7',

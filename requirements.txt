@@ -1,6 +1,5 @@
 beautifulsoup4==4.9.1
 requests==2.22.0
-requests-gssapi==1.2.2
 simplejson==3.17.0
 virtualenv==16.7.10
 virtualenv-clone==0.5.3

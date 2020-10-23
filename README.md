@@ -25,6 +25,10 @@ Getting Started:
 Simply clone this repository:
 
         git clone https://gitlab.com/bio.info/NCBI/python-eutils.git
+        
+Or the one mirrored on github:
+
+        git clone https://gitlab.com/gpiemont/pyeutils.git
 
 
 Setup developement environment:
@@ -41,7 +45,7 @@ or as a regular user:
 And make your changes to the source code.
 
 Install as a Python package:
-===========================
+============================
 
 Package setup is offered via setup.py and is not available on PyPi at the time of writing.
 Simply install it as superuser by issuing:
@@ -58,7 +62,7 @@ Documentation:
 
 For a proper documentation, follow the python inline help command:
 
-        >> import python_eutils as pyeu
+        >> import pyeutils as pyeu
         >> help(pyeu)
 
 Or refer to ``The E-Utilities in-Depth'' on https://www.ncbi.nlm.nih.gov/books/NBK25499/ .
@@ -83,9 +87,9 @@ under ``Advanced Pipelining'' section at:
         ESearch → ELink → EFetch
         [...]
 
-and to the corresponding test cases in this tree under test/
+and to the corresponding test cases in this tree under pyeutils_test/
         
-        tests/
+        pyeutils_tests/
         ├── __init__.py
         ├── pubmed_protein_esummary.py
         └── pubmed_protein_fetch.py
@@ -104,7 +108,7 @@ Nota Bene:
 Since NCBI API Keys are not yet supported in this implementation (only HTTPS GET or POST),
 a rate-limiter of 1-second between requests has been introduced. 
 Use with care and do not overburden the NCBI servers with too much requests. 
-The creator does not hold any responsibility in the misuse of this software.
+The creator does not hold responsibility in the misuse of this software.
 
 Also carefully read COPYRIGHT.NLM, for any use of downloaded data from NCBI System, 
 publication and redistribution included.
