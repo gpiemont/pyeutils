@@ -1,6 +1,8 @@
 #!/usr/bin/env python3.8
 # -*- coding: utf-8 -*-
 # 
+# Copyright (C) 2018-2020 Giulio Piemontese <gpiemont [at] protonmail.com>
+#
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
 # this work for additional information regarding copyright ownership.
@@ -15,6 +17,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
 defaultquery1 = 'asthma[mesh]+AND+leukotrienes[mesh]+AND+2009[pdat]'
 defaultquery2 = 'asthma[mesh]+AND+2019[pdat]' 
