@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from . import EUTILS_APPNAME
+from . evars import EUTILS_APPNAME
 from . epipe import state
 from . elink import ELink
 from . esearch import ESearch
@@ -83,7 +83,7 @@ class EFetch(ELink, EPost, ESearch):
         self._querykey = querykey
         self._webenv   = webenv
 
-        self._status    = state.EFETCH
+        self._status    = state.NONE
 
         if source:
                 # Initialize Base Class from ``source``
@@ -192,7 +192,7 @@ class EFetch(ELink, EPost, ESearch):
 
         
         if not self._webenv and not self._querykey and not self._ids:
-                if self._status in (state.NONE, state.ESEARCH):
+                if self._status in (state.ESEARCH,):
                 # If pipeline is in state.ESEARCH status, with no querykey/webenv set, it means that
                 # some needed parameter's been not supplied. 
                 # Otherwise no results have been found.                
@@ -263,6 +263,10 @@ class EFetch(ELink, EPost, ESearch):
         """
  
         reprs = []
+
+        if self._status != state.EFETCH.value:
+            self._repr = f"EFetch Object<id={id(self)}, not initialized>"
+            return self._repr
 
         if isinstance(self, ESearch):
             if self._status.value >= state.ESEARCH.value:
