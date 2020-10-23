@@ -3,11 +3,11 @@
 
 import sys, os
 
-from python_eutils.esearch import ESearch
-from python_eutils.elink import ELink
-from python_eutils.efetch import EFetch
+from pyeutils.esearch import ESearch
+from pyeutils.elink import ELink
+from pyeutils.efetch import EFetch
 
-from python_eutils import logging
+from pyeutils import logging
 
 logging.getLogger().setLevel(logging.DEBUG)
 
