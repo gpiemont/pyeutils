@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from . import EUTILS_APPNAME
+from . evars import EUTILS_APPNAME
 from . epipe import state
 from . esearch import ESearch
 from . import logging
