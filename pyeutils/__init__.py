@@ -3,8 +3,7 @@
 
 import logging
 
-EUTILS_APPNAME  = "pyeutils"
-
+from . evars import *
 from . ecit import *
 from . ecitmatch import *
 from . efetch import *
@@ -16,6 +15,7 @@ from . esearch import *
 from . espell import *
 from . esummary import *
 from . eresults import *
+
 
 def log_setup(linefmt='%(levelname)s: %(asctime)s : %(message)s', datefmt='%H:%M:%S',
         loglevel=logging.DEBUG):
