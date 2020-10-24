@@ -21,6 +21,9 @@
 
 import sys, os
 
+sys.path.insert(0, "../")
+sys.path.insert(0, "./")
+
 from pyeutils.esearch import ESearch
 from pyeutils.elink import ELink
 from pyeutils.efetch import EFetch
