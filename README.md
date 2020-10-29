@@ -8,7 +8,7 @@ on https://eutils.ncbi.nlm.nih.gov/entrez/eutils/ via HTTPS requests.
 
 This package has been developed mainly for didactical purposes, during and after a mutual cooperation 
 between Biotechnologists and Software Developers in 2018, in part to show the potential of Python 
-as a programming language and also to learn how the NCBI Services works.
+as a programming language and also to learn how the NCBI Services work.
 The initial purpose was to speed-up and make, hopefully, a little bit clearer 
 the interrogation process of NCBI's Entrez dbs, in a programmatic way.
 
